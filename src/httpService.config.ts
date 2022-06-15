@@ -6,7 +6,7 @@ export class HttpConfigService implements HttpModuleOptionsFactory {
     createHttpOptions(): HttpModuleOptions {
         return {
             headers: {
-                'Authorization': 'Bearer EAAE225RZA0TwBAJFMbqpXDttb0ZCLxKTweNVKgDqtRuJM51Cn8JNaylDAcyJJSpEqf8W3ZCHsm2pn8caO0uUcMQTuk44z0701OjdAwwKvIU6fDSSeYqAilZC8FtD4PZCVWwAmaLJZAhkmPIpBhAl1lMxXECUvRtT5uRS0oILPZBM7UzT5N4RBxgT3v0pK1dQvKVcOVwSI8LejVtKNfMtIyJiqNt58F9oe8ZD',
+                'Authorization': 'Bearer EAAE225RZA0TwBAMxijsTuGjZCm1nSENSVZBKVWTtQifl0dozNfg50AqlAZBbkhZBBMQMgy5QC6wkEZCB0npzALOr8Qs0gRi6JbSOScnnvm0HOVLEqDOGFQzZBWwqhgqAjkZBdMyOypKIJF0tSn2yYMUDyPMFrIoihoQtenB42ehuMWo27oVIbjFlZBz15R2HwWDjIavQYO06jESchyMYyRGqZB3kZB9DjH7YZCEZD',
                 'Content-Type': 'application/json'
             }
         }

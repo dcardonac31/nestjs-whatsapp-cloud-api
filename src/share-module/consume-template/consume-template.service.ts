@@ -12,7 +12,7 @@ export class ConsumeTemplateService {
 
     baseUrl = BASEURL.baseUrlWhatsappCloudApi;
 
-    async sampleMovieTicketConfirmation(request: WhatsappCloudApiRequest): Promise<AxiosResponse<WhatsappCloudAPIResponse>> {
+    async sendMessage(request: WhatsappCloudApiRequest): Promise<AxiosResponse<WhatsappCloudAPIResponse>> {
         const { data } = await firstValueFrom(this.httpService.post(this.baseUrl, request));
         console.log(data);
         return data;

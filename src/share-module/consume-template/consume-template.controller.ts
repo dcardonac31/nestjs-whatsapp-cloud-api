@@ -11,7 +11,7 @@ export class ConsumeTemplateController {
     @Post()
     sampleMovieTicketConfirmation(@Body() request: WhatsappCloudAPIRequest, @Res() response) {
         this.logger.warn('consume-template');
-        this.service.sampleMovieTicketConfirmation(request).then( res => {
+        this.service.sendMessage(request).then( res => {
             response.status(HttpStatus.CREATED).json(res);
         }).catch((err) => {
             response.status(HttpStatus.BAD_REQUEST).json(err.response.data);

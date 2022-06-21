@@ -22,7 +22,7 @@ export interface Parameter {
     document?:  Document;
     video?:     Video;
     text?:      string;
-    date_time?: DateTime;
+    dateTime?: DateTime;
     currency?:  Currency;
 }
 
